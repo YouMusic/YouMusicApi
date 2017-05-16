@@ -5,8 +5,6 @@
 * **/stream/get/_videoid_**
 
 * **Method:**
-  
-  The request type
 
   `GET`
 
