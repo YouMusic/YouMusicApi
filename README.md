@@ -20,8 +20,8 @@
 
   OR
 
-  * **Code:** 422 UNPROCESSABLE ENTRY <br />
-    **Content:** `{ error : "Unprocessable entry" }`
+  * **Code:** 400 BAD REQUEST <br />
+    **Content:** `{ error : "Bad request" }`
 
 * **Sample Call:**
 
