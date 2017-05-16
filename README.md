@@ -1,4 +1,4 @@
-**YouMusic API Beschreibung**
+**YouMusic API Description**
 ----
   This is the API call which is used to stream the audio data of a video from YouTube.
 
