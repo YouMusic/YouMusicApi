@@ -2,7 +2,7 @@
 ----
   Dies ist der API-Call welcher benutzt wird um die Audiospur eines Videos zu streamen.
 
-* **/stream/get/_videoid_**
+* **/stream/_videoid_**
 
 * **Method:**
 
@@ -25,4 +25,8 @@
 
 * **Sample Call:**
 
-  This is a sample curl call to this API.
+  Dies ist ein simpler, cURL call auf unsere API, welcher die empfangenen daten in ein file namens response.json speichert.
+  
+  ```
+  curl http://youmusic.com/api/v1/stream/2gFJuEbk5DY 1> response.json
+  ```
