@@ -15,13 +15,13 @@
  
 * **Error Response:**
 
-  * **Code:** 401 UNAUTHORIZED <br />
-    **Content:** `{ error : "Log in" }`
+  * **Code:** 429 TO MANY REQUESTS <br />
+    **Content:** `{ error : "To many requests" }`
 
   OR
 
-  * **Code:** 429 UNPROCESSABLE ENTRY <br />
-    **Content:** `{ error : "To many requests" }`
+  * **Code:** 422 UNPROCESSABLE ENTRY <br />
+    **Content:** `{ error : "Unprocessable entry" }`
 
 * **Sample Call:**
 
