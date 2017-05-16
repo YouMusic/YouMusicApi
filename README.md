@@ -1,6 +1,6 @@
 **YouMusic API Description**
 ----
-  Dies ist der API-Call welcher von den Benutzern benutzt wird um die Audiospur eines Videos zu streamen.
+  Dies ist der API-Call welcher benutzt wird um die Audiospur eines Videos zu streamen.
 
 * **/stream/get/_videoid_**
 
