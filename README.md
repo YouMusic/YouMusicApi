@@ -1,6 +1,6 @@
-**YouMusic API Description**
+**YouMusic API Beschreibung**
 ----
-  Dies ist der API-Call welcher benutzt wird um die Audiospur eines Videos zu streamen.
+  This is the API call which is used to stream the audio data of a video from youtube.
 
 * **/stream/_videoid_**
 
@@ -25,8 +25,8 @@
 
 * **Sample Call:**
 
-  Dies ist ein simpler, cURL call auf unsere API, welcher die empfangenen daten in ein file namens response.json speichert.
+  This is a example cURL call to our API which stores the returned data in a file named _response.json_
   
   ```
-  curl http://youmusic.com/api/v1/stream/2gFJuEbk5DY 1> response.json
+  curl http://youmusic.com/api/v1/stream/2gFJuEbk5DY > response.json
   ```
